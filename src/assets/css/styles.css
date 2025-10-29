@@ -54,3 +54,28 @@ body{
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: #fff;
 }
+
+.bg-gradient-pink{
+    background: linear-gradient(135deg, #f54ea2, #ff7676);
+    color: #fff;
+}
+
+.card-hover{
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer{
+    background: #222;
+    color: #fff;
+}
